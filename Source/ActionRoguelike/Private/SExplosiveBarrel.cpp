@@ -23,7 +23,7 @@ ASExplosiveBarrel::ASExplosiveBarrel()
 	RadialForceComp->SetAutoActivate(false);
 
 	RadialForceComp->Radius = 750.0f;
-	RadialForceComp->ImpulseStrength = 2500.0f; // Alternative: 200000.0 if bImpulseVelChange = false
+	RadialForceComp->ImpulseStrength = 500.0f; // Alternative: 200000.0 if bImpulseVelChange = false
 	// Optional, ignores 'Mass' of other  objects (if false, the impulse strength will be much higher to push most objects depending on Mass)
 	RadialForceComp->bImpulseVelChange = true;
 
